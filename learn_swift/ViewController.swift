@@ -1,20 +1,40 @@
 //
 //  ViewController.swift
-//  learn_swift
+//  SwiftLesson
 //
-//  Created by sari oba on 2020/06/27.
+//  Created by sari oba on 2020/06/23.
 //  Copyright © 2020 Swift-Biggners. All rights reserved.
-//
 
 import UIKit
+import RxSwift
 
 class ViewController: UIViewController {
+    private let viewModel: SampleApiViewModel = SampleApiViewModel()
+    private let disposeBag: DisposeBag = DisposeBag()
+    let sampleZipCode: Int = 1010052
 
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    // Do any additional setup after loading the view.
-  }
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        initViews()
+        bind()
+    }
 
+    public func initViews() {
+        viewModel.setPrams(zipcode: sampleZipCode)
+    }
+
+    private func bind() {
+        viewModel
+            .loadFinishTrigger
+            .asObservable()
+            .subscribe(onNext: { [weak self] _ in
+                guard let `self` = self else { return }
+                dump(self.viewModel.sampleResponseModel)
+                }, onError: { _ in
+            }).disposed(by: disposeBag)
+        viewModel.callApi()
+    }
 
 }
+
 
