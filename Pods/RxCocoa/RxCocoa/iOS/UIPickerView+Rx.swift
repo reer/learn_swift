@@ -215,7 +215,7 @@
          Synchronous helper method for retrieving a model at indexPath through a reactive data source.
          */
         public func model<T>(at indexPath: IndexPath) throws -> T {
-            let dataSource: SectionedViewDataSourceType = castOrFatalError(self.dataSource.forwardToDelegate(), bmi: "This method only works in case one of the `rx.itemTitles, rx.itemAttributedTitles, items(_ source: O)` methods was used.")
+            let dataSource: SectionedViewDataSourceType = castOrFatalError(self.dataSource.forwardToDelegate(), message: "This method only works in case one of the `rx.itemTitles, rx.itemAttributedTitles, items(_ source: O)` methods was used.")
             
             return castOrFatalError(try dataSource.model(at: indexPath))
         }

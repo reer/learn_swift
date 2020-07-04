@@ -27,7 +27,7 @@ private final class CollectionViewDataSourceNotSet
     
     // The cell that is returned must be retrieved from a call to -dequeueReusableCellWithReuseIdentifier:forIndexPath:
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        rxAbstractMethod(bmi: dataSourceNotSet)
+        rxAbstractMethod(message: dataSourceNotSet)
     }
     
 }
