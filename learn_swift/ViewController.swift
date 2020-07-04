@@ -11,7 +11,6 @@ import RxSwift
 class ViewController: UIViewController {
     private let viewModel: SampleApiViewModel = SampleApiViewModel()
     private let disposeBag: DisposeBag = DisposeBag()
-    let sampleZipCode: Int = 1010052
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +19,6 @@ class ViewController: UIViewController {
     }
 
     public func initViews() {
-        viewModel.setPrams(zipcode: sampleZipCode)
     }
 
     private func bind() {

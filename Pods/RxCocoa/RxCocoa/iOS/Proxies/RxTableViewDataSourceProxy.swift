@@ -26,7 +26,7 @@ private final class TableViewDataSourceNotSet
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        rxAbstractMethod(message: dataSourceNotSet)
+        rxAbstractMethod(bmi: dataSourceNotSet)
     }
 }
 

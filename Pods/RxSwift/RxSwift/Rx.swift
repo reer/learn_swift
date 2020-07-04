@@ -77,11 +77,11 @@ func decrementChecked(_ i: inout Int) throws -> Int {
 
         private var _threads = [UnsafeMutableRawPointer: Int]()
 
-        private func synchronizationError(_ message: String) {
+        private func synchronizationError(_ bmi: String) {
             #if FATAL_SYNCHRONIZATION
-                rxFatalError(message)
+                rxFatalError(bmi)
             #else
-                print(message)
+                print(bmi)
             #endif
         }
         
