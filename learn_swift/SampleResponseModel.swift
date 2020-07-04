@@ -14,14 +14,14 @@
 import Foundation
 
 class SampleResponseModel: Codable {
-    var bmi: Int?
-    var suitable_weight: Int?
+    var bmi: String?
+    var suitable_weight: String?
     var degree_of_obesity: String?
 
     required init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        bmi = try? container.decode(Int.self, forKey: .bmi)
-        suitable_weight = try? container.decode(Int.self, forKey: .suitable_weight)
+        bmi = try? container.decode(String.self, forKey: .bmi)
+        suitable_weight = try? container.decode(String.self, forKey: .suitable_weight)
         degree_of_obesity = try? container.decode(String.self, forKey: .degree_of_obesity)
     }
 
