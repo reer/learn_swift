@@ -8,33 +8,34 @@
 /**
  Moya Sample.
  Please refer to this class when making API request using Moya.
- http://zipcloud.ibsnet.co.jp/doc/api
+ enumにエンドポイントを定義する
+ TargetTypeに準拠してリクエスト内容を記述
  */
 
 import Moya
 
 enum SampleEndpoint {
-    case getAddressSample(request: [String: Any])
+    case getHealth(request: [String: Any])
 }
 
 extension SampleEndpoint: TargetType {
-    var baseURL: URL { return URL(string: "http://zipcloud.ibsnet.co.jp")! }
+    var baseURL: URL { return URL(string: "https://us-central1-tub-89275.cloudfunctions.net/api_docs")! }
     var path: String {
         switch self {
-        case .getAddressSample:
+        case .getHealth:
             return "/api/search"
         }
     }
     var method: Moya.Method {
         switch self {
-        case .getAddressSample:
-            return .get
+        case .getHealth:
+            return .post
         }
     }
 
     var task: Task {
         switch self {
-        case .getAddressSample(let request):
+        case .getHealth(let request):
             return .requestParameters(parameters: request, encoding: URLEncoding.default)
         }
     }

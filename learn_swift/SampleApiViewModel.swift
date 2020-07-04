@@ -25,7 +25,7 @@ class SampleApiViewModel {
     }
 
     public func callApi() {
-        provider.rx.request(.getAddressSample(request: params))
+        provider.rx.request(.getHealth(request: params))
             .filterSuccessfulStatusCodes()
             .map(SampleResponseModel.self)
             .subscribe(onSuccess: { (model) in

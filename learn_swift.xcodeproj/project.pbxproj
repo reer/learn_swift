@@ -50,7 +50,7 @@
 		52D3BC3824A7316900224707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52D3BC3D24A7316900224707 /* learn_swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learn_swiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D3BC4324A7316900224707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52D3BC4C24A736E300224707 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		52D3BC4C24A736E300224707 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		52D3BC4E24A73EAD00224707 /* SampleApiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleApiViewModel.swift; sourceTree = "<group>"; };
 		52D3BC5024A73F1100224707 /* SampleResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleResponseModel.swift; sourceTree = "<group>"; };
 		52D3BC5224A73F4F00224707 /* SampleRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRequestModel.swift; sourceTree = "<group>"; };
