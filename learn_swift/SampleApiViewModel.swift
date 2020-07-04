@@ -18,6 +18,11 @@ class SampleApiViewModel {
     var params: [String: Any] = [:]
     var sampleResponseModel: SampleResponseModel!
 
+    public func setPrams(bmi: String) {
+        if let createPram = SampleRequestModel(bmi: bmi).dictionary {
+            params = createPram
+        }
+    }
 
     public func callApi() {
         provider.rx.request(.getHealth(request: params))

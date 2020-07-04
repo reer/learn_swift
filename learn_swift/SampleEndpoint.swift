@@ -18,14 +18,17 @@ enum SampleEndpoint {
     case getHealth(request: [String: Any])
 }
 
+//指定したAPIにアクセスする
 extension SampleEndpoint: TargetType {
     var baseURL: URL { return URL(string: "https://us-central1-tub-89275.cloudfunctions.net/api_docs")! }
     var path: String {
         switch self {
         case .getHealth:
-            return "/api/search"
+            return "/api_docs"
         }
     }
+  
+  //HTTPメソッド(POST)に設定している
     var method: Moya.Method {
         switch self {
         case .getHealth:
@@ -33,6 +36,7 @@ extension SampleEndpoint: TargetType {
         }
     }
 
+  //リクエストを送る
     var task: Task {
         switch self {
         case .getHealth(let request):

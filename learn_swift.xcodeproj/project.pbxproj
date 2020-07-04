@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		34374D1DFB82B2EBEF5B5FC5 /* Pods_learn_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E2F9563A19463641772526 /* Pods_learn_swiftTests.framework */; };
+		528CEC8824B08EED0084DE77 /* SampleRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528CEC8724B08EED0084DE77 /* SampleRequestModel.swift */; };
 		52D3BC2824A7316800224707 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D3BC2724A7316800224707 /* AppDelegate.swift */; };
 		52D3BC2A24A7316800224707 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D3BC2924A7316800224707 /* SceneDelegate.swift */; };
 		52D3BC2C24A7316800224707 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D3BC2B24A7316800224707 /* ViewController.swift */; };
@@ -18,7 +19,6 @@
 		52D3BC4D24A736E300224707 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 52D3BC4C24A736E300224707 /* Podfile */; };
 		52D3BC4F24A73EAD00224707 /* SampleApiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D3BC4E24A73EAD00224707 /* SampleApiViewModel.swift */; };
 		52D3BC5124A73F1100224707 /* SampleResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D3BC5024A73F1100224707 /* SampleResponseModel.swift */; };
-		52D3BC5324A73F4F00224707 /* SampleRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D3BC5224A73F4F00224707 /* SampleRequestModel.swift */; };
 		52D3BC5524A73F8D00224707 /* EncodableExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D3BC5424A73F8D00224707 /* EncodableExtention.swift */; };
 		52D3BC5724A73FCA00224707 /* SampleEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D3BC5624A73FCA00224707 /* SampleEndpoint.swift */; };
 		62835A10A8F18A6599E5A322 /* Pods_learn_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B7EF8D9DC1B0775A276046 /* Pods_learn_swift.framework */; };
@@ -39,6 +39,7 @@
 		12E2F9563A19463641772526 /* Pods_learn_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_learn_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D42E348C96BE819BFC528D0 /* Pods-learn_swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learn_swift.release.xcconfig"; path = "Target Support Files/Pods-learn_swift/Pods-learn_swift.release.xcconfig"; sourceTree = "<group>"; };
 		3D805D813B7D93081EB4D9C9 /* Pods-learn_swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learn_swiftTests.debug.xcconfig"; path = "Target Support Files/Pods-learn_swiftTests/Pods-learn_swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		528CEC8724B08EED0084DE77 /* SampleRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRequestModel.swift; sourceTree = "<group>"; };
 		52D3BC2424A7316800224707 /* learn_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learn_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D3BC2724A7316800224707 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52D3BC2924A7316800224707 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,7 +54,6 @@
 		52D3BC4C24A736E300224707 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		52D3BC4E24A73EAD00224707 /* SampleApiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleApiViewModel.swift; sourceTree = "<group>"; };
 		52D3BC5024A73F1100224707 /* SampleResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleResponseModel.swift; sourceTree = "<group>"; };
-		52D3BC5224A73F4F00224707 /* SampleRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRequestModel.swift; sourceTree = "<group>"; };
 		52D3BC5424A73F8D00224707 /* EncodableExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodableExtention.swift; sourceTree = "<group>"; };
 		52D3BC5624A73FCA00224707 /* SampleEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleEndpoint.swift; sourceTree = "<group>"; };
 		9B0BE0A5D4A8D3CCC727B3B1 /* Pods-learn_swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learn_swiftTests.release.xcconfig"; path = "Target Support Files/Pods-learn_swiftTests/Pods-learn_swiftTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,9 +109,9 @@
 				52D3BC2B24A7316800224707 /* ViewController.swift */,
 				52D3BC4E24A73EAD00224707 /* SampleApiViewModel.swift */,
 				52D3BC5024A73F1100224707 /* SampleResponseModel.swift */,
-				52D3BC5224A73F4F00224707 /* SampleRequestModel.swift */,
 				52D3BC5424A73F8D00224707 /* EncodableExtention.swift */,
 				52D3BC5624A73FCA00224707 /* SampleEndpoint.swift */,
+				528CEC8724B08EED0084DE77 /* SampleRequestModel.swift */,
 				52D3BC2D24A7316800224707 /* Main.storyboard */,
 				52D3BC3324A7316900224707 /* Assets.xcassets */,
 				52D3BC3524A7316900224707 /* LaunchScreen.storyboard */,
@@ -320,12 +320,12 @@
 			files = (
 				52D3BC2C24A7316800224707 /* ViewController.swift in Sources */,
 				52D3BC2824A7316800224707 /* AppDelegate.swift in Sources */,
+				528CEC8824B08EED0084DE77 /* SampleRequestModel.swift in Sources */,
 				52D3BC4F24A73EAD00224707 /* SampleApiViewModel.swift in Sources */,
 				52D3BC3224A7316800224707 /* learn_swift.xcdatamodeld in Sources */,
 				52D3BC5124A73F1100224707 /* SampleResponseModel.swift in Sources */,
 				52D3BC2A24A7316800224707 /* SceneDelegate.swift in Sources */,
 				52D3BC5524A73F8D00224707 /* EncodableExtention.swift in Sources */,
-				52D3BC5324A73F4F00224707 /* SampleRequestModel.swift in Sources */,
 				52D3BC5724A73FCA00224707 /* SampleEndpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
