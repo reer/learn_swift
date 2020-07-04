@@ -17,8 +17,6 @@ class SampleResponseModel: Codable {
     var bmi: Int?
     var suitable_weight: Int?
     var degree_of_obesity: String?
-//    var results: [Result]?
-//    var status: Int
 
     required init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
