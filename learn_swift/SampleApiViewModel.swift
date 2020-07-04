@@ -19,7 +19,7 @@ class SampleApiViewModel {
     var sampleResponseModel: SampleResponseModel!
 
     public func setPrams(bmi: String) {
-        if let createPram = SampleRequestModel(bmi: bmi).dictionary {
+      if let createPram = SampleRequestModel(bmi: bmi).dictionary {
             params = createPram
         }
     }

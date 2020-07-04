@@ -11,6 +11,11 @@ import RxSwift
 class ViewController: UIViewController {
     private let viewModel: SampleApiViewModel = SampleApiViewModel()
     private let disposeBag: DisposeBag = DisposeBag()
+   
+    let bmi: String = ""
+    let suitable_weight: String = ""
+    let degree_of_obesity: String = ""
+  
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +24,7 @@ class ViewController: UIViewController {
     }
 
     public func initViews() {
+        viewModel.setPrams(bmi: bmi)
     }
 
     private func bind() {
