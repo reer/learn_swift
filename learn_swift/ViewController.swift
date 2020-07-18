@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     }
 
     public func initViews() {
-        viewModel.setPrams(bmi: bmi)
+      viewModel.setPrams(bmi: bmi, suitable_weight: suitable_weight, degree_of_obesity: degree_of_obesity)
     }
 
     private func bind() {

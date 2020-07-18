@@ -114,38 +114,6 @@
             endingLineNumber = "43"
             landmarkName = "task"
             landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "A13345B8-3C3B-4F85-BF6D-04BCDAE9879D - 726bad29a2cbc1ee"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "learn_swift.SampleEndpoint.task.getter : Moya.Task"
-                  moduleName = "learn_swift"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sari/ghq/github-reer/reer/learn_swift/learn_swift/SampleEndpoint.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
-                  offsetFromSymbolStart = "108">
-               </Location>
-               <Location
-                  uuid = "A13345B8-3C3B-4F85-BF6D-04BCDAE9879D - 726bad29a2cbc1ee"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "learn_swift.SampleEndpoint.task.getter : Moya.Task"
-                  moduleName = "learn_swift"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sari/ghq/github-reer/reer/learn_swift/learn_swift/SampleEndpoint.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
-                  offsetFromSymbolStart = "257">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -191,7 +159,7 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "17"
                   endingLineNumber = "17"
-                  offsetFromSymbolStart = "4">
+                  offsetFromSymbolStart = "40">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -210,6 +178,38 @@
             endingLineNumber = "19"
             landmarkName = "CodingKeys"
             landmarkType = "13">
+            <Locations>
+               <Location
+                  uuid = "3D9D2757-B558-468B-AE25-C7B3214B6628 - 45709e010440740b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "learn_swift.SampleRequestModel.(CodingKeys in _88D7456030EA140F8B1723CBAF875FFE).init(rawValue: Swift.String) -&gt; Swift.Optional&lt;learn_swift.SampleRequestModel.(CodingKeys in _88D7456030EA140F8B1723CBAF875FFE)&gt;"
+                  moduleName = "learn_swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sari/ghq/github-reer/reer/learn_swift/learn_swift/SampleRequestModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "167">
+               </Location>
+               <Location
+                  uuid = "3D9D2757-B558-468B-AE25-C7B3214B6628 - c8d48fbfd426fa20"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "learn_swift.SampleRequestModel.(CodingKeys in _88D7456030EA140F8B1723CBAF875FFE).rawValue.getter : Swift.String"
+                  moduleName = "learn_swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sari/ghq/github-reer/reer/learn_swift/learn_swift/SampleRequestModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -226,6 +226,38 @@
             endingLineNumber = "18"
             landmarkName = "CodingKeys"
             landmarkType = "13">
+            <Locations>
+               <Location
+                  uuid = "E6D69E4A-2C1C-4E9E-AFF0-8B2961AEE699 - 45709e010440740b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "learn_swift.SampleRequestModel.(CodingKeys in _88D7456030EA140F8B1723CBAF875FFE).init(rawValue: Swift.String) -&gt; Swift.Optional&lt;learn_swift.SampleRequestModel.(CodingKeys in _88D7456030EA140F8B1723CBAF875FFE)&gt;"
+                  moduleName = "learn_swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sari/ghq/github-reer/reer/learn_swift/learn_swift/SampleRequestModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "125">
+               </Location>
+               <Location
+                  uuid = "E6D69E4A-2C1C-4E9E-AFF0-8B2961AEE699 - c8d48fbfd426fa20"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "learn_swift.SampleRequestModel.(CodingKeys in _88D7456030EA140F8B1723CBAF875FFE).rawValue.getter : Swift.String"
+                  moduleName = "learn_swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sari/ghq/github-reer/reer/learn_swift/learn_swift/SampleRequestModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -254,8 +286,8 @@
             filePath = "learn_swift/SampleResponseModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47">
+            startingLineNumber = "38"
+            endingLineNumber = "38">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -268,8 +300,8 @@
             filePath = "learn_swift/SampleResponseModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48">
+            startingLineNumber = "38"
+            endingLineNumber = "38">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -282,8 +314,8 @@
             filePath = "learn_swift/SampleResponseModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59">
+            startingLineNumber = "38"
+            endingLineNumber = "38">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -296,8 +328,8 @@
             filePath = "learn_swift/SampleResponseModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58">
+            startingLineNumber = "38"
+            endingLineNumber = "38">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
