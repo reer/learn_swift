@@ -14,12 +14,12 @@
 
 import Moya
 
-enum SampleEndpoint {
+enum Sample {
     case getHealth(request: [String: Any])
 }
 
 //指定したAPIにアクセスする
-extension SampleEndpoint: TargetType {
+extension Sample: TargetType {
     var baseURL: URL { return URL(string: "https://us-central1-tub-89275.cloudfunctions.net/api_docs")! }
     var path: String {
         switch self {

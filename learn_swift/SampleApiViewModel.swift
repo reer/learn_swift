@@ -12,7 +12,7 @@ import Moya
 
 class SampleApiViewModel {
     let loadFinishTrigger: PublishSubject<Void> = PublishSubject<Void>()
-    let provider = MoyaProvider<SampleEndpoint>()
+    let provider = MoyaProvider<Sample>()
     private let disposeBag: DisposeBag = DisposeBag()
 
     var params: [String: Any] = [:]

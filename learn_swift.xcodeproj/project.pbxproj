@@ -20,7 +20,7 @@
 		52D3BC4F24A73EAD00224707 /* SampleApiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D3BC4E24A73EAD00224707 /* SampleApiViewModel.swift */; };
 		52D3BC5124A73F1100224707 /* SampleResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D3BC5024A73F1100224707 /* SampleResponseModel.swift */; };
 		52D3BC5524A73F8D00224707 /* EncodableExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D3BC5424A73F8D00224707 /* EncodableExtention.swift */; };
-		52D3BC5724A73FCA00224707 /* SampleEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D3BC5624A73FCA00224707 /* SampleEndpoint.swift */; };
+		52D3BC5724A73FCA00224707 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D3BC5624A73FCA00224707 /* Sample.swift */; };
 		62835A10A8F18A6599E5A322 /* Pods_learn_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B7EF8D9DC1B0775A276046 /* Pods_learn_swift.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,7 +55,7 @@
 		52D3BC4E24A73EAD00224707 /* SampleApiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleApiViewModel.swift; sourceTree = "<group>"; };
 		52D3BC5024A73F1100224707 /* SampleResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleResponseModel.swift; sourceTree = "<group>"; };
 		52D3BC5424A73F8D00224707 /* EncodableExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodableExtention.swift; sourceTree = "<group>"; };
-		52D3BC5624A73FCA00224707 /* SampleEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleEndpoint.swift; sourceTree = "<group>"; };
+		52D3BC5624A73FCA00224707 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
 		9B0BE0A5D4A8D3CCC727B3B1 /* Pods-learn_swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learn_swiftTests.release.xcconfig"; path = "Target Support Files/Pods-learn_swiftTests/Pods-learn_swiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		E7B7EF8D9DC1B0775A276046 /* Pods_learn_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_learn_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -110,7 +110,7 @@
 				52D3BC4E24A73EAD00224707 /* SampleApiViewModel.swift */,
 				52D3BC5024A73F1100224707 /* SampleResponseModel.swift */,
 				52D3BC5424A73F8D00224707 /* EncodableExtention.swift */,
-				52D3BC5624A73FCA00224707 /* SampleEndpoint.swift */,
+				52D3BC5624A73FCA00224707 /* Sample.swift */,
 				528CEC8724B08EED0084DE77 /* SampleRequestModel.swift */,
 				52D3BC2D24A7316800224707 /* Main.storyboard */,
 				52D3BC3324A7316900224707 /* Assets.xcassets */,
@@ -326,7 +326,7 @@
 				52D3BC5124A73F1100224707 /* SampleResponseModel.swift in Sources */,
 				52D3BC2A24A7316800224707 /* SceneDelegate.swift in Sources */,
 				52D3BC5524A73F8D00224707 /* EncodableExtention.swift in Sources */,
-				52D3BC5724A73FCA00224707 /* SampleEndpoint.swift in Sources */,
+				52D3BC5724A73FCA00224707 /* Sample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
