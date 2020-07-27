@@ -7,54 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "96DEB838-5AF6-47B0-BCD2-5AF1F0A50444"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "learn_swift/SampleResponseModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "init(from:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1A983FA6-BBCF-40CC-9FCF-1E52C9C70179"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "learn_swift/SampleResponseModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "init(from:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F494A6BB-37FE-43A5-AF78-A1912EB8B3CC"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "learn_swift/SampleResponseModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "init(from:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "60633C61-0AD8-47CA-990B-9D79F0A1BDEB"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -64,8 +16,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "15"
             endingLineNumber = "15"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "SampleApiViewModel"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -80,8 +32,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "19"
             endingLineNumber = "19"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "SampleApiViewModel"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -96,8 +48,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "32"
             endingLineNumber = "32"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "callApi()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -119,150 +71,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "0E4F0F01-534B-4808-8597-4381B4DC5928"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "learn_swift/SampleRequestModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "CodingKeys"
-            landmarkType = "13">
-            <Locations>
-               <Location
-                  uuid = "0E4F0F01-534B-4808-8597-4381B4DC5928 - 45709e010440740b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "learn_swift.SampleRequestModel.(CodingKeys in _88D7456030EA140F8B1723CBAF875FFE).init(rawValue: Swift.String) -&gt; Swift.Optional&lt;learn_swift.SampleRequestModel.(CodingKeys in _88D7456030EA140F8B1723CBAF875FFE)&gt;"
-                  moduleName = "learn_swift"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sari/ghq/github-reer/reer/learn_swift/learn_swift/SampleRequestModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "86">
-               </Location>
-               <Location
-                  uuid = "0E4F0F01-534B-4808-8597-4381B4DC5928 - c8d48fbfd426fa20"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "learn_swift.SampleRequestModel.(CodingKeys in _88D7456030EA140F8B1723CBAF875FFE).rawValue.getter : Swift.String"
-                  moduleName = "learn_swift"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sari/ghq/github-reer/reer/learn_swift/learn_swift/SampleRequestModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "40">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "3D9D2757-B558-468B-AE25-C7B3214B6628"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "learn_swift/SampleRequestModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "CodingKeys"
-            landmarkType = "13">
-            <Locations>
-               <Location
-                  uuid = "3D9D2757-B558-468B-AE25-C7B3214B6628 - 45709e010440740b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "learn_swift.SampleRequestModel.(CodingKeys in _88D7456030EA140F8B1723CBAF875FFE).init(rawValue: Swift.String) -&gt; Swift.Optional&lt;learn_swift.SampleRequestModel.(CodingKeys in _88D7456030EA140F8B1723CBAF875FFE)&gt;"
-                  moduleName = "learn_swift"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sari/ghq/github-reer/reer/learn_swift/learn_swift/SampleRequestModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "167">
-               </Location>
-               <Location
-                  uuid = "3D9D2757-B558-468B-AE25-C7B3214B6628 - c8d48fbfd426fa20"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "learn_swift.SampleRequestModel.(CodingKeys in _88D7456030EA140F8B1723CBAF875FFE).rawValue.getter : Swift.String"
-                  moduleName = "learn_swift"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sari/ghq/github-reer/reer/learn_swift/learn_swift/SampleRequestModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "104">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E6D69E4A-2C1C-4E9E-AFF0-8B2961AEE699"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "learn_swift/SampleRequestModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "CodingKeys"
-            landmarkType = "13">
-            <Locations>
-               <Location
-                  uuid = "E6D69E4A-2C1C-4E9E-AFF0-8B2961AEE699 - 45709e010440740b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "learn_swift.SampleRequestModel.(CodingKeys in _88D7456030EA140F8B1723CBAF875FFE).init(rawValue: Swift.String) -&gt; Swift.Optional&lt;learn_swift.SampleRequestModel.(CodingKeys in _88D7456030EA140F8B1723CBAF875FFE)&gt;"
-                  moduleName = "learn_swift"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sari/ghq/github-reer/reer/learn_swift/learn_swift/SampleRequestModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "125">
-               </Location>
-               <Location
-                  uuid = "E6D69E4A-2C1C-4E9E-AFF0-8B2961AEE699 - c8d48fbfd426fa20"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "learn_swift.SampleRequestModel.(CodingKeys in _88D7456030EA140F8B1723CBAF875FFE).rawValue.getter : Swift.String"
-                  moduleName = "learn_swift"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sari/ghq/github-reer/reer/learn_swift/learn_swift/SampleRequestModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "72">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "4F28FE19-A286-45CC-97A9-64F12E8AA16C"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -270,66 +78,10 @@
             filePath = "learn_swift/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "ViewController"
             landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E4FE3F1F-B04B-487F-BBDD-9EA4CFE7B12B"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "learn_swift/SampleResponseModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "110B5128-BD30-4EFB-A44C-CE2C6880E794"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "learn_swift/SampleResponseModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "EBE74C27-3814-41F6-846F-8FEAD5082740"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "learn_swift/SampleResponseModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "2929ADAD-098C-4150-864F-2D8C16137DF6"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "learn_swift/SampleResponseModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -342,26 +94,10 @@
             filePath = "learn_swift/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
             landmarkName = "ViewController"
             landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "316E61F2-FC52-4BFF-B48E-BDB6E4CF99C0"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "learn_swift/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -424,8 +160,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "18"
             endingLineNumber = "18"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "SampleApiViewModel"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

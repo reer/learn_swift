@@ -9,14 +9,12 @@
 import Foundation
 
 struct SampleRequestModel: Codable {
-    let bmi: String
-    let suitable_weight: String
-    let degree_of_obesity: String
+    let weight: String
+    let height: String
 
     private enum CodingKeys: String, CodingKey {
-        case bmi = "bmi"
-        case suitable_weight = "suitable_weight"
-        case degree_of_obesity = "degree_of_obesity"
+        case weight = "weight"
+        case height = "height"
     }
 
 }

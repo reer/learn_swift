@@ -12,9 +12,8 @@ class ViewController: UIViewController {
     private let viewModel: SampleApiViewModel = SampleApiViewModel()
     private let disposeBag: DisposeBag = DisposeBag()
    
-    let bmi: String = ""
-    let suitable_weight: String = ""
-    let degree_of_obesity: String = ""
+    let weight: String = ""
+    let height: String = ""
   
 
     override func viewDidLoad() {
@@ -24,7 +23,7 @@ class ViewController: UIViewController {
     }
 
     public func initViews() {
-      viewModel.setPrams(bmi: bmi, suitable_weight: suitable_weight, degree_of_obesity: degree_of_obesity)
+      viewModel.setPrams(weight: weight, height: height)
     }
 
     private func bind() {

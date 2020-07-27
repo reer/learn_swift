@@ -18,8 +18,8 @@ class SampleApiViewModel {
     var params: [String: Any] = [:]
     var sampleResponseModel: SampleResponseModel!
 
-  public func setPrams(bmi: String, suitable_weight: String, degree_of_obesity: String) {
-    if let createPram = SampleRequestModel(bmi: bmi, suitable_weight: suitable_weight, degree_of_obesity: degree_of_obesity).dictionary {
+  public func setPrams(weight: String, height: String) {
+    if let createPram = SampleRequestModel(weight: weight, height: height).dictionary {
             params = createPram
         }
     }

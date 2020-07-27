@@ -14,21 +14,18 @@
 import Foundation
 
 class SampleResponseModel: Codable {
-    var bmi: String?
-    var suitable_weight: String?
-    var degree_of_obesity: String?
+    var weight: String?
+    var height: String?
 
     required init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        bmi = try? container.decode(String.self, forKey: .bmi)
-        suitable_weight = try? container.decode(String.self, forKey: .suitable_weight)
-        degree_of_obesity = try? container.decode(String.self, forKey: .degree_of_obesity)
+        weight = try? container.decode(String.self, forKey: .weight)
+        height = try? container.decode(String.self, forKey: .height)
     }
 
     private enum CodingKeys: String, CodingKey {
-        case bmi = "bmi"
-        case suitable_weight = "suitable_weight"
-        case degree_of_obesity = "degree_of_obesity"
+        case weight = "weight"
+        case height = "height"
     }
 }
 
