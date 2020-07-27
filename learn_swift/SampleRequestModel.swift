@@ -9,8 +9,8 @@
 import Foundation
 
 struct SampleRequestModel: Codable {
-    let weight: String
-    let height: String
+    let weight: Int
+    let height: Int
 
     private enum CodingKeys: String, CodingKey {
         case weight = "weight"

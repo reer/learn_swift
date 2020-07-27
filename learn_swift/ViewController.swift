@@ -12,8 +12,8 @@ class ViewController: UIViewController {
     private let viewModel: SampleApiViewModel = SampleApiViewModel()
     private let disposeBag: DisposeBag = DisposeBag()
    
-    let weight: String = ""
-    let height: String = ""
+    let weight: Int = 60
+    let height: Int = 170
   
 
     override func viewDidLoad() {

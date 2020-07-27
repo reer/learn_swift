@@ -18,7 +18,7 @@ class SampleApiViewModel {
     var params: [String: Any] = [:]
     var sampleResponseModel: SampleResponseModel!
 
-  public func setPrams(weight: String, height: String) {
+  public func setPrams(weight: Int, height: Int) {
     if let createPram = SampleRequestModel(weight: weight, height: height).dictionary {
             params = createPram
         }

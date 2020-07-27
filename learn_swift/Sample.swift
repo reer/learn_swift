@@ -22,14 +22,14 @@ enum SampleEndpoint {
 extension SampleEndpoint: TargetType {
   
   var baseURL: URL {
-    return URL(string: "https://us-central1-tub-89275.cloudfunctions.net/api_docs")!
+    return URL(string: "https://us-central1-tub-89275.cloudfunctions.net")!
   }
   
   //パス指定する
   var path: String {
     switch self {
     case .getHealth:
-        return "/api_docs"
+        return "/postHealthcare"
     }
   }
  //HTTPメソッド(POST)に設定している
